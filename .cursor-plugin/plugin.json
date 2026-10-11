@@ -1,0 +1,7 @@
+{
+  "name": "autoscope",
+  "version": "0.1.0",
+  "description": "Elicit project context and design decisions before building",
+  "keywords": ["context", "elicitation", "planning", "requirements", "architecture"],
+  "license": "MIT"
+}

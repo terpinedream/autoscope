@@ -1,0 +1,16 @@
+---
+description: Before planning or building non-trivial work, run autoscope elicitation
+alwaysApply: true
+---
+
+When planning (Plan mode, or any request to design, architect, build, or scope
+something non-trivial), do NOT invent scope, constraints, acceptance, or
+architecture silently.
+
+First use the `autoscope` skill: inspect the repo and existing logs, classify
+the task type, and ask only high-impact unknowns in the skill's condensed
+format. Only draft the plan or start implementing after those are answered
+(or explicitly listed as Assumed).
+
+Skip the checkpoint for small, local changes (a bug fix with clear repro, a
+rename, a single function, a typo, a config tweak).
